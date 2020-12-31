@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Podkova&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Podkova', serif;
+}
+
+/* style  repeated */
+.container {
+    padding: 0px 15%;
+}
+
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.py-1{
+    padding: 1rem 0;
+}
+
+/* color used : orange #F05421 , 
+                dark : #222222
+                light : #999999 */
+/*---------------------- header ------------------ */
+header .top {
+    display: flex;
+    justify-content: space-between;
+    background-color:#222222 ;
+}
+
+header ul li {
+    padding: 8px;
+}
+
+header .socialMedia ul li a{
+    color: #999999;
+    font-size: 13px;
+}
+
+header .contact ul li a{
+    color: #F05421;
+    font-size: 13px;
+}
+
+header .contact ul li i{
+    color: #fff;
+}
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F05421;
+    height: 80px;
+}
+
+nav img{
+    width: 200px;
+}
+
+nav ul li a{
+    color: white;
+    padding-left: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*---------------------- image cover ------------------ */
+.cover {
+    background: url(../img/cover1.jpg)  no-repeat center top/cover;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ .cover-container {
+     width: 50%;
+ }
+
+.cover-container h1 {
+    color: #222222;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.cover-container h2 {
+    color: #F05421;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.cover-container P{
+    color: #222222;
+    width: 70%;
+    line-height: 1.8;
+     
+}
+
+.cover-container button {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    background-color: none;
+    border: 2px solid black;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.cover-container button:hover{
+    background-color: #F05421;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+/*---------------------- section : 3 div ------------------ */
+.sectione-one {
+    display: flex;
+}
+
+.sectione-one article {
+    background-color: #F05421;
+    text-align: justify;
+    padding: 2rem 4rem;
+    color: #fff;
+     
+}
+
+.sectione-one article h2{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+ 
+ 
+
+.sectione-one article p{
+    font-size: 13px;
+    line-height: 1.6;
+   
+}
+ .sectione-one article i {
+    font-size:3rem; 
+ }
+ 
+
+.sectione-one article button {
+    margin-top: 2rem;
+    background-color: #fff;
+    color: #F05421;
+   font-weight: bold;
+   border: none;
+   padding: 0.8rem 2rem;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+.sectione-one article button:hover{
+    background-color: #222222;
+    color: #fff;
+}
+
+/*---------------------- section : title and 4 div ------------------ */
