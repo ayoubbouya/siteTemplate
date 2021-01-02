@@ -34,7 +34,9 @@ ul {
 .text-primary {
     color: #F05421;
 }
-
+.text-light {
+    color: #fff;
+}
 .paragraph-center{
     font-size: 14px;
     margin-left: auto;
@@ -226,7 +228,7 @@ nav ul li a{
 }
  
 .services .services-container article:hover .btn {
-    color: #222222;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -303,39 +305,86 @@ nav ul li a{
 
    .products .products-container {
        display: flex;
-       width: 100%;
-       height: 460px;
+        width: 100%;
+       height: 500px;
+       margin: 40px 0;
    }
 
    .products .products-container .part1{
        width: 50%;
        display: flex;
        flex-wrap: wrap;
+       height:100%;
    }
    .products .products-container .part1 div{
-       width: 50%;
-       height: 230px;
-       margin: 10px;
-       background-color: blueviolet;
+       width: 40%;
+       margin: 10px 0;
+        height: 240px;
+       background-color: blueviolet; 
+       display: flex;
+        align-items: center;
+        justify-content: center;       
    }
 
-   #research{
-       background-color: #3FC8DB;
+   .products .products-container .part1 ul {
+       display: inline; 
    }
 
-   #branding{
-        background-color: #F3CC29;
+   .products .products-container .part1 ul li {
+       font-size: 18px;
    }
-
-   #design{
-        background-color:#E74C3C ;
+   
+   .products .products-container .part1 div i{
+       font-size: 4.5rem;
+        
    }
-
-   #seo{
-        background-color: #5AADDD;
-   }
+   #research{background-color: #3FC8DB;}
+   #branding{background-color: #F3CC29;}
+   #design{ background-color:#E74C3C }
+   #seo{ background-color: #5AADDD;}
 
    .products .products-container .part2{
     width: 50%;
     background-color: aquamarine;
+    height:500px;
+    margin: 10px;
+     
 }
+
+.products .products-container .part2 img{
+    width: 100%;
+    height: 100%;
+}
+
+  /*---------------------- section :(portfolio)   ------------------ */
+
+.portfolio {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio div{
+    width: 25%;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+
+.portfolio div img{
+    width: 100%;
+    transition: .5s;
+}
+
+.portfolio div:hover img {
+    transform: scale(1.2);
+    
+     
+}
+
+/* */
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}
+
