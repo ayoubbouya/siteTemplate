@@ -8,6 +8,7 @@
 
 html, body {
     font-family: 'Podkova', serif;
+    outline: none;
 }
 
 /* style  repeated */
@@ -43,6 +44,8 @@ ul {
     margin-right: auto;
     width: 350px;
 }
+
+
 /* color used : orange #F05421 , 
                 dark : #222222
                 light : #999999 */
@@ -522,21 +525,108 @@ hr {
     justify-content: center;
 
 }
+/*---------------------- contact us ------------------ */
 
+.contacts{
+    background-image: url("../img/contact.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
 
+.contact-head {
+    color: #fff;
+    padding-top: 4rem;
+}
+.contact-head p {
+    line-height: 1.8;
+}
+ 
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: 3rem 0;
+}
+.contact-container ul , .contact-container form  {
+    display: flex;
+    flex-direction: column;
 
+}
 
-
-
-
-
-
-
-
+.contact-container ul li {
+    padding: 10px 0;
+}
+.contact-container form input ,textarea {
+    margin: 10px;
+    width: 600px;
+    padding:10px;
+    border: none;
+}
+.contact-container form button {
+    padding: 10px 40px;
+    width: 150px;
+    margin: 10px;
+    border: 1px solid #fff;
+    background-color: #F05421;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
 
 /*---------------------- footer  ------------------ */
 footer{
-    height: 100px;
-    background-color: blueviolet;
+    height: 400px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
+footer div{
+    width: 20% ;
+    padding-top: 5rem;
+    line-height: 1.7;
+    height: 300px;
+}
+footer div a{
+    text-decoration: none;
+    color: #222222;
+    padding-left: 5px;
+}
+footer div p{
+    line-height: 1.2; 
+    padding-bottom: 10px; 
+}
+footer div input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: apx solid #222222;
+    border-radius: 3px;
+    outline: none;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+}
+
+footer div button {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid #fff;
+    background-color: #F05421;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/*---------------------- copyright  ------------------ */
+.copyright p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #E74C3C;
+    color: #fff;
+}
