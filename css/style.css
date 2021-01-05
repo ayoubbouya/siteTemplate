@@ -73,6 +73,10 @@ header .contact ul li a{
 header .contact ul li i{
     color: #fff;
 }
+
+header .contact .clock a{
+    color: #fff;
+}
 /* navbar */
 nav {
     display: flex;
@@ -303,13 +307,12 @@ nav ul li a{
 
    .products {
     padding-top: 40px;
-    
+    height: auto;
    }
 
    .products .products-container {
        display: flex;
         width: 100%;
-       height: 500px;
        margin: 40px 0;
    }
 
@@ -323,7 +326,7 @@ nav ul li a{
        width: 40%;
        margin: 10px ;
         height: 240px;
-       background-color: blueviolet; 
+        
        display: flex;
         align-items: center;
         justify-content: center;       
@@ -348,7 +351,7 @@ nav ul li a{
 
    .products .products-container .part2{
     width: 50%;
-    background-color: aquamarine;
+    
     height:500px;
     margin: 10px;
      
@@ -486,7 +489,7 @@ hr {
     background-color: #F5F5F5;
     padding-top: 4rem;
     padding-bottom: 4rem;
-     
+    
 }
 
 .globaly-left {
@@ -577,16 +580,17 @@ hr {
 
 /*---------------------- footer  ------------------ */
 footer{
-    height: 400px;
+    height: auto;
     background-color: #F5F5F5;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 footer div{
     width: 20% ;
-    padding-top: 5rem;
+    padding-top: 1rem;
     line-height: 1.7;
     height: 300px;
 }
@@ -625,7 +629,7 @@ footer div button {
 /*---------------------- copyright  ------------------ */
 .copyright p {
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     padding: 5px;
     background-color: #E74C3C;
     color: #fff;
