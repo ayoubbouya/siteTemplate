@@ -1,0 +1,54 @@
+@media (min-width: 992px) and (max-width: 1199px){  
+    .cover {
+         height: 40vh;
+        
+    }
+
+    .cover-container h1 {
+         font-size: 3rem;
+        
+    }
+    .sectione-one article {
+      
+        padding: 2rem ;
+        
+    }
+    
+
+    .about .about-container h1 {
+        font-size: 2rem;
+    }
+
+    .about .about-container {
+        
+        line-height: 1.2;
+    }
+ 
+
+ }
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {  
+    
+    .cover {
+         height: 40vh;
+        
+    }
+    .cover-container h1 {
+        font-size: 3rem;
+    }
+
+    
+
+    
+    .about .about-container h1 {
+        font-size: 2rem;
+    }
+
+ }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  
+
+    
+
+ }
