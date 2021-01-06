@@ -100,7 +100,7 @@ nav ul li a{
 /*---------------------- image cover ------------------ */
 .cover {
     background: url(../img/cover1.jpg)  no-repeat center top/cover;
-    height: 45vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
