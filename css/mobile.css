@@ -1,4 +1,7 @@
-/* X-Small devices (portrait phones, less than 576px) */
+/******************* X-Small devices (portrait phones, less than 576px) ****************************/
+/******************* X-Small devices (portrait phones, less than 576px) ****************************/
+/******************* X-Small devices (portrait phones, less than 576px) ****************************/
+
 @media (max-width: 575px)  { 
 
     /* header */
@@ -30,7 +33,9 @@
         text-align: center;
     }
     /*---------------------- image cover ------------------ */
-    .cover {  height: 45vh; }
+    .cover {
+        height: 25vh;
+    }
     .cover-container {  width: 70%; }
     .cover-container h1 { font-size: 1.5rem;}
     .cover-container h2 {font-size: 1rem } 
@@ -128,13 +133,7 @@
      
     
       /*---------------------- section :(projects)   ------------------ */
-    
-   
-    .projects .projects-container {
-        flex-direction: column;
-        
-    
-    }
+      
     .projects .projects-container article {
         
        flex-direction: column;
@@ -142,16 +141,16 @@
          
     }
     
-    .projects .projects-container article img{
-         
+    
+    .projects .projects-container article .projet-paragraph {
+        
         width: 100%;
     }
-    .projects .projects-container .article2 {
-        flex-direction: column;
+    
+    
+    .projects .projects-container article .project-image {
+        width: 100%;
     }
-    
-    
-    
     
     
     /*---------------------- section :(about)   ------------------ */
@@ -271,8 +270,10 @@
         
     }
 }
-
-/********** Small devices (landscape phones, 576px and up)  ************/
+/**************************** Small devices (landscape phones, 576px and up)  ************/
+/**************************** Small devices (landscape phones, 576px and up)  ************/
+/**************************** Small devices (landscape phones, 576px and up)  ************/
+/**************************** Small devices (landscape phones, 576px and up)  ************/
 @media (min-width: 576px) and (max-width: 767px) {
 
      /* header */
@@ -304,7 +305,9 @@
         text-align: center;
     }
     /*---------------------- image cover ------------------ */
-    .cover {  height: 45vh; }
+    .cover {
+        height: 25vh;
+    }
     .cover-container {  width: 70%; }
     .cover-container h1 { font-size: 1.5rem;}
     .cover-container h2 {font-size: 1rem } 
@@ -404,9 +407,8 @@
       /*---------------------- section :(projects)   ------------------ */
     
    
-    .projects .projects-container {
+      .projects .projects-container {
         flex-direction: column;
-        
     
     }
     .projects .projects-container article {
@@ -415,14 +417,22 @@
        width: 100%;
          
     }
-    
-    .projects .projects-container article img{
-         
+    .project-image {
+        width: 100;
         width: 100%;
     }
-    .projects .projects-container .article2 {
-        flex-direction: column;
+    
+     
+    .projects .projects-container article .projet-paragraph {
+       
+        width: 100%;
     }
+    
+    
+    .projects .projects-container article .project-image {
+        width: 100%;
+    }
+    
     
     
     
@@ -545,10 +555,35 @@
     }
    
   } 
-/* Medium devices (tablets, 768px and up) */
+
+
+
+/***************** Medium devices (tablets, 768px and up) *****************************/
+/***************** Medium devices (tablets, 768px and up) *****************************/
+/***************** Medium devices (tablets, 768px and up) *****************************/
+
+
 @media (min-width: 768px) and (max-width: 991px) {  
+    
+    .cover {
+         height: 25vh;
+         
+    }
+
     .container {
         padding: 0px 0%;
+    }
+
+    .cover-container h1 {
+         
+        font-size: 3rem;
+        
+    }
+
+    .cover-container h2 {
+        
+        font-size: 1rem;
+        
     }
 
     /*---------------------- header ------------------ */
@@ -566,48 +601,18 @@ header ul li {
     width: 80%;
 }
 
-/*---------------------- section (products) ------------------ */
- 
 
-.sectione-one article {
-     padding: 2rem;
-      
-}
-
-
-.products .products-container .part1 div {
-    
-    height: 190px;
-
-}
- 
-.products .products-container .part2 {
-    
-    height: 500px;
-     
-}
- 
  
  
 
 /*---------------------- section (portfolio) ------------------ */
 .portfolio div {
-   
-    height: 130px;
     
-}
+    height: 136px;
    
+}
  
-
-/*---------------------- section :section (projects) ------------------ */
-.projects .projects-container article {
-   
-    flex-direction: column;
-}
-
-.projects .projects-container .article2 {
-    flex-direction: column;
-}
+ 
 
   /*---------------------- section :(products)   ------------------ */
   .products .products-container .part2 {
@@ -658,11 +663,30 @@ header ul li {
 
   /*---------------------- section :(projects)   ------------------ */
 
+  .projects .projects-container {
+    flex-direction: column;
+
+}
  
-.projects .projects-container .article2 {
-     flex-direction: column;
+.project-image {
+    width: 100;
+    width: 100%;
 }
 
+ 
+.projects .projects-container article .projet-paragraph {
+   
+    width: 100%;
+}
+
+.projects .projects-container article {
+    flex-direction: row;
+    width: 100%;
+}
+.projects {
+  
+    padding-top: 4rem;
+}
  
 
 
@@ -719,7 +743,7 @@ footer {
     font-size: small;
 }
 footer div{
-    width: 22% ;
+    width: 25% ;
     padding-top: 1rem;
     line-height: 1.7;
     height: 300px;
