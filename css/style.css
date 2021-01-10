@@ -42,7 +42,7 @@ ul {
     font-size: 14px;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    
 }
 
 
@@ -100,7 +100,8 @@ nav ul li a{
 /*---------------------- image cover ------------------ */
 .cover {
     background: url(../img/cover1.jpg)  no-repeat center top/cover;
-    height: 100vh;
+    width: 100%;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -555,31 +556,33 @@ hr {
  
 .contact-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
      margin: 3rem 0;
 }
-.contact-container ul , .contact-container form  {
-    display: flex;
-    flex-direction: column;
-     
-
+.infos ul {
+    display: inline;
+    line-height: 1.8;
 }
 
-.contact-container ul li {
-    padding: 10px 0;
-}
-.contact-container form input ,textarea {
-    margin: 10px;
-    width: 400px;
-    padding:10px;
-    border: none;
+ form {
+     display: flex;
+     flex-direction: column;
+     width: 30vw;
+      
      
-}
+ }
+ 
+ 
+ form input,textarea {
+     margin: 10px 0;
+     padding: 5px;
+ }
+ 
 .contact-container form button {
     padding: 10px 40px;
-    width: 150px;
-    margin: 10px;
+    margin-top: 10px;
+    width: 30%;
     border: 1px solid #fff;
     background-color: #F05421;
     color: #fff;
