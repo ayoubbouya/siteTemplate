@@ -3,7 +3,9 @@
 /******************* X-Small devices (portrait phones, less than 576px) ****************************/
 
 @media (max-width: 575px)  { 
-
+    .container {
+        padding: 0px 5%;
+    }
     /* header */
     header .top   {
         flex-direction: column;
@@ -32,6 +34,8 @@
         flex-direction: column;
         text-align: center;
     }
+
+     
     /*---------------------- image cover ------------------ */
      
     .cover-container {  width: 70%; }
@@ -42,6 +46,13 @@
         padding: 0.5rem 1rem;
         border: 1px solid black;
         font-size: 12px;  
+    }
+
+    .paragraph-center {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+         
     }
     /*---------------------- section : 3 div ------------------ */
     .sectione-one {
@@ -220,30 +231,32 @@
     .contacts {
         height: auto;
     }
-   
+     
      
     .contact-container {
-       flex-direction: column;
-    }
-    .contact-container ul , .contact-container form  {
         
+        margin: 0rem 0;
+        padding: 2rem 0;
+    }
+
+    .contact-container {
         flex-direction: column;
+     }
     
+     .infos ul {
+         
+        text-align: center;
     }
      
-    .contact-container form{
-        padding-top: 40px;
-    }
-    .contact-container form input ,textarea {
+    form {
         
-        width: 400px;
-       
+        width: 70vw;
     }
+
     .contact-container form button {
-        padding: 10px 30px;
-        width: 140px;
-        margin: 10px;
-        font-size: 13px;
+        padding: 5px 18px;
+        margin-top: 0px;
+        width: 30%;
         
     }
     
@@ -253,12 +266,14 @@
         
     }
     
-    footer div{
-        width: 100% ;
-        padding: 1rem;
+
+    footer div {
+        width: 100%;
+        padding: .5rem;
         line-height: 1;
         height: auto;
     }
+
         /*---------------------- copyright  ------------------ */
 
     .copyright p {
@@ -505,30 +520,7 @@
     }
    
      
-    .contact-container {
-       flex-direction: column;
-    }
-    .contact-container ul , .contact-container form  {
-        
-        flex-direction: column;
-    
-    }
      
-    .contact-container form{
-        padding-top: 40px;
-    }
-    .contact-container form input ,textarea {
-        
-        width: 400px;
-       
-    }
-    .contact-container form button {
-        padding: 10px 30px;
-        width: 140px;
-        margin: 10px;
-        font-size: 13px;
-        
-    }
     
     /*---------------------- footer  ------------------ */
     footer{
@@ -719,15 +711,6 @@ header ul li {
  
 /*---------------------- contact us ------------------ */
  
-.contact-container {
-   
-     margin: 2rem 0;
-}
-.contact-container ul , .contact-container form  {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 25px;
-}
  
  
 /*---------------------- footer  ------------------ */
